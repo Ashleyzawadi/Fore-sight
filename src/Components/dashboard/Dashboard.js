@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import Notifications from './Notifictaions'
+import Notifications from './Notifications'
+import ProjectList from '../projects/ProjectList'
 
 
 class Dashboard extends Component{
@@ -10,6 +11,7 @@ class Dashboard extends Component{
                     <div className="col s12 m6 l6">
                         <div className="col s12 m5 offset-m1">
                             <Notifications/>
+                            <ProjectList/>
                         </div>
                     </div>
                 </div>
@@ -17,3 +19,5 @@ class Dashboard extends Component{
         )
     }
 }
+
+export default Dashboard;
